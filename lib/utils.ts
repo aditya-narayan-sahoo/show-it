@@ -12,3 +12,7 @@ export function formatDate(date: string) {
     year: "numeric",
   });
 }
+
+export const formatViews = (number: number) => {
+  return number === 1 ? "View" : "Views";
+};
